@@ -16,6 +16,4 @@ int main(){
         sum1+=arr[i];
     }
     cout<<"Missing Number is"<<sum-sum1;
-
-
 }

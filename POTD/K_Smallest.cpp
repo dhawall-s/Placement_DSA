@@ -44,20 +44,15 @@ Node* buildTree(string str) {
         Node* currNode = queue.front();
         queue.pop();
 
-        // Get the current node's value from the string
         string currVal = ip[i];
 
-        // If the left child is not null
         if (currVal != "N") {
 
-            // Create the left child for the current node
             currNode->left = new Node(stoi(currVal));
 
-            // Push it to the queue
             queue.push(currNode->left);
         }
 
-        // For the right child
         i++;
         if (i >= ip.size())
             break;

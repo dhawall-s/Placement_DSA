@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-
 class Solution {
 public:
     int check(int x, vector<int>& tops, vector<int>& bottoms) {
@@ -35,11 +34,11 @@ int main() {
 
     vector<int> tops1 = {2, 1, 2, 4, 2, 2};
     vector<int> bottoms1 = {5, 2, 6, 2, 3, 2};
-    cout << "Example 1 Output: " << sol.minDominoRotations(tops1, bottoms1) << endl; // Expected: 2
+    cout << "Example 1 Output: " << sol.minDominoRotations(tops1, bottoms1) << endl; 
 
     vector<int> tops2 = {3, 5, 1, 2, 3};
     vector<int> bottoms2 = {3, 6, 3, 3, 4};
-    cout << "Example 2 Output: " << sol.minDominoRotations(tops2, bottoms2) << endl; // Expected: -1
+    cout << "Example 2 Output: " << sol.minDominoRotations(tops2, bottoms2) << endl; 
 
     return 0;
 }

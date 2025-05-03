@@ -45,7 +45,6 @@ public:
     }
 };
 
-// Utility function to print the linked list
 void printList(Node* head) {
     while (head != nullptr) {
         cout << head->val;
@@ -55,7 +54,6 @@ void printList(Node* head) {
     cout << endl;
 }
 
-// Utility function to create a linked list from an array
 Node* createList(const vector<int>& vals) {
     if (vals.empty()) return nullptr;
     Node* head = new Node(vals[0]);

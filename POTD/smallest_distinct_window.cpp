@@ -11,7 +11,6 @@ class Solution {
         unordered_set<char> uniqueChars(str.begin(), str.end());
         int totalUnique = uniqueChars.size();
 
-        // Step 2: Use sliding window to find the minimum window
         unordered_map<char, int> windowCount;
         int minLen = INT_MAX;
         int i = 0, matched = 0;

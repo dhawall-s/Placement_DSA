@@ -27,6 +27,5 @@ int main() {
     
     cout << "Output 1: " << sol.numEquivDominoPairs(dominoes1) << endl;
     cout << "Output 2: " << sol.numEquivDominoPairs(dominoes2) << endl; 
-
     return 0;
 }

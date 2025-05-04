@@ -8,7 +8,6 @@ using namespace std;
 class Solution {
   public:
     int findSubString(string& str) {
-        // Step 1: Count all distinct characters
         unordered_set<char> uniqueChars(str.begin(), str.end());
         int totalUnique = uniqueChars.size();
 
@@ -40,9 +39,6 @@ class Solution {
     }
 };
 
-// ----------------------------
-// Main Function to Test
-// ----------------------------
 int main() {
     Solution obj;
     

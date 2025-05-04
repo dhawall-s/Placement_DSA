@@ -25,8 +25,8 @@ int main() {
     vector<vector<int>> dominoes1 = {{1,2},{2,1},{3,4},{5,6}};
     vector<vector<int>> dominoes2 = {{1,2},{1,2},{1,1},{1,2},{2,2}};
     
-    cout << "Output 1: " << sol.numEquivDominoPairs(dominoes1) << endl; // Expected: 1
-    cout << "Output 2: " << sol.numEquivDominoPairs(dominoes2) << endl; // Expected: 3
+    cout << "Output 1: " << sol.numEquivDominoPairs(dominoes1) << endl;
+    cout << "Output 2: " << sol.numEquivDominoPairs(dominoes2) << endl; 
 
     return 0;
 }

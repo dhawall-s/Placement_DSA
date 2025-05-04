@@ -22,7 +22,6 @@ class Solution {
                 matched++;
             }
 
-            // Try to shrink window from the left
             while (matched == totalUnique) {
                 minLen = min(minLen, j - i + 1);
 

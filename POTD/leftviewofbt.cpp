@@ -30,7 +30,6 @@ Node* buildTree(const string& str) {
         Node* currNode = q.front();
         q.pop();
 
-        // Left child
         if (ip[i] != "N") {
             currNode->left = new Node(stoi(ip[i]));
             q.push(currNode->left);

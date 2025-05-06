@@ -14,7 +14,6 @@ struct Node {
     }
 };
 
-// Function to build a tree from level order input
 Node* buildTree(const string& str) {
     if (str.length() == 0 || str[0] == 'N') return nullptr;
 

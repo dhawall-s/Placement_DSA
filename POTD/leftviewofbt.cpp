@@ -63,7 +63,7 @@ public:
                 Node* node = q.front();
                 q.pop();
 
-                if (i == 0) result.push_back(node->data); // Leftmost node of this level
+                if (i == 0) result.push_back(node->data); 
 
                 if (node->left) q.push(node->left);
                 if (node->right) q.push(node->right);

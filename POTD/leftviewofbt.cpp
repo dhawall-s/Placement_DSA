@@ -37,7 +37,6 @@ Node* buildTree(const string& str) {
         i++;
         if (i >= ip.size()) break;
 
-        // Right child
         if (ip[i] != "N") {
             currNode->right = new Node(stoi(ip[i]));
             q.push(currNode->right);

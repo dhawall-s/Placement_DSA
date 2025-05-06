@@ -73,7 +73,7 @@ public:
     }
 };
 
-// Main function to test the code
+
 int main() {
     string input;
     cout << "Enter tree in level-order (use N for nulls): ";

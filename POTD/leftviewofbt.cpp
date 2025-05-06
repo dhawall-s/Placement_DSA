@@ -80,15 +80,12 @@ int main() {
     getline(cin, input);
 
     Node* root = buildTree(input);
-
     Solution sol;
     vector<int> leftViewResult = sol.leftView(root);
-
     cout << "Left View: ";
     for (int val : leftViewResult) {
         cout << val << " ";
     }
     cout << endl;
-
     return 0;
 }

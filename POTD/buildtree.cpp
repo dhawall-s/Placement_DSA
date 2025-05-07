@@ -64,7 +64,7 @@ private:
     void findPaths(Node* node, vector<int>& currentPath, vector<vector<int>>& result) {
         if (!node) return;  // Base case: if node is null, return
         
-        // Add current node to the path
+      
         currentPath.push_back(node->data);
         
         if (!node->left && !node->right) {

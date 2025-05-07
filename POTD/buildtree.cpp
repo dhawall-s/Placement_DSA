@@ -67,7 +67,6 @@ private:
         // Add current node to the path
         currentPath.push_back(node->data);
         
-        // If it's a leaf node, add the path to the result
         if (!node->left && !node->right) {
             result.push_back(currentPath);
         } else {

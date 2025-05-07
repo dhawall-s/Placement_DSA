@@ -106,7 +106,6 @@ int main() {
     cout << "\nPaths for tree 2:" << endl;
     printPaths(paths2);
 
-    // Test case 3
     string tree3 = "1 2 3";
     Node* root3 = buildTree(tree3);
     vector<vector<int>> paths3 = sol.Paths(root3);

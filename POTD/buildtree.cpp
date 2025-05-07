@@ -76,7 +76,6 @@ private:
             findPaths(node->right, currentPath, result);
         }
         
-        // Backtrack to explore other paths
         currentPath.pop_back();
     }
 };

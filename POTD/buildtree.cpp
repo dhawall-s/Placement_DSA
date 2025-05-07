@@ -91,7 +91,7 @@ void printPaths(vector<vector<int>> paths) {
 }
 
 int main() {
-    // Test case 1
+    
     string tree1 = "1 2 3 4 5 N N";
     Node* root1 = buildTree(tree1);
     Solution sol;

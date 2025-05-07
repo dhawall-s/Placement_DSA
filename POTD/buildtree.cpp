@@ -99,7 +99,7 @@ int main() {
     cout << "Paths for tree 1:" << endl;
     printPaths(paths1);
 
-    // Test case 2
+    
     string tree2 = "10 20 30 40 60 N N";
     Node* root2 = buildTree(tree2);
     vector<vector<int>> paths2 = sol.Paths(root2);

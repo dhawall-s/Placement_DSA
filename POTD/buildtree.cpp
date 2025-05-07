@@ -71,7 +71,6 @@ private:
         if (!node->left && !node->right) {
             result.push_back(currentPath);
         } else {
-            // Recur for the left and right subtrees
             findPaths(node->left, currentPath, result);
             findPaths(node->right, currentPath, result);
         }

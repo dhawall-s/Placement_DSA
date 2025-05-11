@@ -33,7 +33,6 @@ class Solution {
         return maxLen;
     }
 };
-
 int main() {
     int n, k;
     cin >> n >> k;
@@ -41,7 +40,6 @@ int main() {
     for (int i = 0; i < n; ++i) {
         cin >> arr[i];
     }
-
     Solution sol;
     cout << sol.longestSubarray(arr, k) << endl;
     return 0;

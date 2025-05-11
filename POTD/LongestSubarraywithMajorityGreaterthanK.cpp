@@ -11,7 +11,6 @@ class Solution {
         for (int i = 0; i < n; ++i) {
             transformed[i] = (arr[i] > k) ? 1 : -1;
         }
-
         unordered_map<int, int> prefixIndex;
         int sum = 0, maxLen = 0;
 

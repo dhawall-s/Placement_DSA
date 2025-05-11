@@ -21,7 +21,6 @@ class Solution {
                     maxLen = max(maxLen, i - prefixIndex[sum - 1]);
                 }
             }
-
             if (prefixIndex.find(sum) == prefixIndex.end()) {
                 prefixIndex[sum] = i;
             }

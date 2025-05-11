@@ -23,7 +23,6 @@ class Solution {
         return minHeap.top();
     }
 };
-
 int main() {
     int n, k;
     cin >> n >> k;

@@ -12,7 +12,6 @@ class Solution {
         }
         unordered_map<int, int> prefixIndex;
         int sum = 0, maxLen = 0;
-
         for (int i = 0; i < n; ++i) {
             sum += transformed[i];
             if (sum > 0) {

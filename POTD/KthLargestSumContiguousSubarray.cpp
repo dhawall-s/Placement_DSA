@@ -2,7 +2,6 @@
 #include <vector>
 #include <queue>
 using namespace std;
-
 class Solution {
   public:
     int kthLargest(vector<int> &arr, int k) {

@@ -62,7 +62,7 @@ public:
     
 private:
     void findPaths(Node* node, vector<int>& currentPath, vector<vector<int>>& result) {
-        if (!node) return;  // Base case: if node is null, return
+        if (!node) return;  
         
       
         currentPath.push_back(node->data);

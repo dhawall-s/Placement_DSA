@@ -25,7 +25,6 @@ int main() {
     for (int i = 0; i < n; ++i) {
         cin >> arr[i];
     }
-
     Solution sol;
     cout << (sol.threeConsecutiveOdds(arr) ? "true" : "false") << endl;
     return 0;

@@ -19,8 +19,7 @@ public:
             }
             current += to_string(count) + result.back();
             result = current;
-        }
-        
+        }        
         return result;
     }
 };

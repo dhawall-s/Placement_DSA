@@ -17,7 +17,6 @@ public:
                     count = 1;
                 }
             }
-            // Add the last group
             current += to_string(count) + result.back();
             result = current;
         }

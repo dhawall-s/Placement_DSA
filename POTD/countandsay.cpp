@@ -23,7 +23,6 @@ public:
         return result;
     }
 };
-
 int main() {
     Solution sol;
     

@@ -25,13 +25,10 @@ public:
 };
 int main() {
     Solution sol;
-    
     int n;
     cout << "Enter n: ";
     cin >> n;
-    
     string output = sol.countAndSay(n);
     cout << "The " << n << "th term in the Look-and-Say sequence is: " << output << endl;
-    
     return 0;
 }

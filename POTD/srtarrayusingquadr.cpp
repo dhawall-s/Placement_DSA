@@ -9,7 +9,6 @@ public:
         int n = arr.size();
         vector<int> result(n);
         
-        // Quadratic transformation function
         auto f = [&](int x) -> int {
             return A * x * x + B * x + C;
         };

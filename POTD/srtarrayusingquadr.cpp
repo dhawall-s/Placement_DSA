@@ -58,13 +58,13 @@ int main() {
     int A2 = -1, B2 = 0, C2 = 0;
     vector<int> result2 = sol.sortArray(arr2, A2, B2, C2);
     for (int num : result2) cout << num << " ";
-    cout << endl; // Expected: -16 -9 -4 -1
+    cout << endl; 
 
     vector<int> arr3 = {0};
     int A3 = 0, B3 = 0, C3 = 0;
     vector<int> result3 = sol.sortArray(arr3, A3, B3, C3);
     for (int num : result3) cout << num << " ";
-    cout << endl; // Expected: 0
+    cout << endl; 
 
     vector<int> arr4 = {-10, -5, 0, 5, 10};
     int A4 = 1, B4 = 0, C4 = 0;

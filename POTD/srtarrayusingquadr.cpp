@@ -16,8 +16,6 @@ public:
         
         int left = 0, right = n - 1;
         int index = (A >= 0) ? n - 1 : 0;
-        
-        // Two-pointer approach
         while (left <= right) {
             int leftVal = f(arr[left]);
             int rightVal = f(arr[right]);
@@ -39,12 +37,10 @@ public:
                     right--;
                 }
             }
-        }
-        
+        }      
         return result;
     }
 };
-
 int main() {
     Solution sol;
     
@@ -52,7 +48,7 @@ int main() {
     int A1 = 1, B1 = 3, C1 = 5;
     vector<int> result1 = sol.sortArray(arr1, A1, B1, C1);
     for (int num : result1) cout << num << " ";
-    cout << endl; // Expected: 3 5 9 15 33
+    cout << endl; 
 
     vector<int> arr2 = {-3, -1, 2, 4};
     int A2 = -1, B2 = 0, C2 = 0;

@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-
 class Solution {
 public:
     vector<int> sortArray(vector<int> &arr, int A, int B, int C) {

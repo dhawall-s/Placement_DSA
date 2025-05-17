@@ -70,7 +70,7 @@ int main() {
     int A4 = 1, B4 = 0, C4 = 0;
     vector<int> result4 = sol.sortArray(arr4, A4, B4, C4);
     for (int num : result4) cout << num << " ";
-    cout << endl; // Expected: 0 25 25 100 100
+    cout << endl; 
 
     return 0;
 }

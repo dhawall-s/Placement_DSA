@@ -30,10 +30,9 @@ class Solution {
 int main() {
     vector<int> a1 = {0, 1, 0, 0, 0, 0};
     vector<int> a2 = {1, 0, 1, 0, 0, 1};
-    
+
     Solution sol;
     int result = sol.longestCommonSum(a1, a2);
     cout << "Longest common span length: " << result << endl;
-
     return 0;
 }

@@ -34,7 +34,7 @@ int main() {
     vector<string> words2 = {"ab", "a", "abc", "abd"};
 
     Solution sol;
-    cout << sol.longestString(words1) << endl;  // Output: pros
+    cout << sol.longestString(words1) << endl;  
     cout << sol.longestString(words2) << endl;  // Output: abc
 
     return 0;

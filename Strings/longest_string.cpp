@@ -35,7 +35,7 @@ int main() {
 
     Solution sol;
     cout << sol.longestString(words1) << endl;  
-    cout << sol.longestString(words2) << endl;  // Output: abc
+    cout << sol.longestString(words2) << endl;  
 
     return 0;
 }
